@@ -6,11 +6,12 @@
 
 <a href="https://github.com/erfand39?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-0b1727?style=for-the-badge&labelColor=0b1727&color=3ccfbf" alt="Explore repositories" /></a>
 <a href="https://github.com/erfand39?tab=overview"><img src="https://img.shields.io/badge/GITHUB-OVERVIEW-0b1727?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0b1727&color=7664d8" alt="GitHub overview" /></a>
+<a href="https://instagram.com/er.dehghani"><img src="https://img.shields.io/badge/INSTAGRAM-@er.dehghani-0b1727?style=for-the-badge&logo=instagram&logoColor=ffffff&labelColor=0b1727&color=dd5693" alt="Instagram @er.dehghani" /></a>
 <a href="https://github.com/erfand39?tab=followers"><img src="https://img.shields.io/github/followers/erfand39?label=FOLLOWERS&style=for-the-badge&labelColor=0b1727&color=2a5663" alt="GitHub followers" /></a>
 
 <br /><br />
 
-**Product-minded developer building thoughtful interfaces and reliable systems.**
+**Software Engineer & Product Builder** · Crafting elegant web, desktop & PWA experiences.
 
 <sub>طراحی تجربه‌های کاربری دقیق، توسعهٔ نرم‌افزارهای کاربردی و ساخت سامانه‌هایی که استفاده از آن‌ها لذت‌بخش باشد.</sub>
 
@@ -81,6 +82,7 @@ I'm always interested in interesting engineering challenges, elegant products, a
 
 <a href="https://github.com/erfand39?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-62F1E4?style=for-the-badge&logo=github&logoColor=061019&labelColor=62F1E4" alt="Explore my work" /></a>
 <a href="https://github.com/erfand39"><img src="https://img.shields.io/badge/FIND_ME_ON_GITHUB-9E8CFF?style=for-the-badge&logo=github&logoColor=061019&labelColor=9E8CFF" alt="Find me on GitHub" /></a>
+<a href="https://instagram.com/er.dehghani"><img src="https://img.shields.io/badge/CONNECT_ON_INSTAGRAM-FF74B8?style=for-the-badge&logo=instagram&logoColor=061019&labelColor=FF74B8" alt="Connect on Instagram" /></a>
 
 <br /><br />
 
