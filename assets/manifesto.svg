@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="184" viewBox="0 0 1200 184" role="img" aria-label="Erfan Dehghani developer portfolio graphic">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07111e"/><stop offset="53%" stop-color="#0b1525"/><stop offset="100%" stop-color="#0b0d23"/></linearGradient>
+      <linearGradient id="horizon" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#62f1e4"/><stop offset="53%" stop-color="#8996ff"/><stop offset="100%" stop-color="#d78cff"/></linearGradient>
+      <radialGradient id="aurora"><stop stop-color="#6b62ff" stop-opacity=".28"/><stop offset="1" stop-color="#6b62ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="aurora2"><stop stop-color="#2affd0" stop-opacity=".17"/><stop offset="1" stop-color="#2affd0" stop-opacity="0"/></radialGradient>
+      <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+      <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0 H0 V34" fill="none" stroke="#2b4260" stroke-width=".6" opacity=".32"/></pattern>
+      <style>
+        .spin { transform-origin: 950px 214px; animation: spin 24s linear infinite; }
+        .spin2 { transform-origin: 950px 214px; animation: spin 35s linear infinite reverse; }
+        .pulse { animation: pulse 2.8s ease-in-out infinite; }
+        .blink { animation: blink 1.3s steps(1,end) infinite; }
+        .float { animation: float 6s ease-in-out infinite; }
+        .dash { stroke-dasharray: 8 18; animation: dash 18s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.35} }
+        @keyframes blink { 50% {opacity:0} }
+        @keyframes float { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
+        @keyframes dash { to {stroke-dashoffset:-600} }
+        @media (prefers-reduced-motion:reduce) { .spin,.spin2,.pulse,.blink,.float,.dash { animation:none; } }
+      </style>
+    </defs>
+<rect x="0" y="0" width="1200" height="184" rx="20" fill="url(#bg)" />
+<circle cx="920" cy="50" r="320" fill="url(#aurora)" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="1200" height="184" rx="20" fill="url(#grid)" />
+<rect x="14" y="14" width="1172" height="156" rx="14" fill="none" stroke="#263c54" stroke-width="1" />
+<line x1="48" y1="40" x2="48" y2="147" stroke="#62f1e4" stroke-width="4" opacity="1" />
+<text x="82" y="62" font-size="12" font-weight="750" fill="#62f1e4" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="2" >THE PHILOSOPHY</text>
+<text x="80" y="119" font-size="46" font-weight="800" fill="#eaf6ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-1.2" >MAKE IT WORK.</text>
+<text x="482" y="119" font-size="46" font-weight="800" fill="#b2a7ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-1.2" >MAKE IT MATTER.</text>
+<text x="83" y="151" font-size="16" font-weight="400" fill="#93a7b9" font-family='Inter,Segoe UI,Arial,sans-serif' >Not just code. Useful experiences, deliberate details, robust systems.</text>
+<circle cx="1081" cy="92" r="58" fill="none" stroke="#526b91" stroke-width="1.5" />
+<circle cx="1081" cy="92" r="44" fill="none" stroke="#4d6d8a" stroke-width="1" stroke-dasharray="2 7"/>
+<text x="1051" y="103" font-size="44" font-weight="400" fill="#62f1e4" font-family='Inter,Segoe UI,Arial,sans-serif' >↗</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Erfan Dehghani developer portfolio graphic">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07111e"/><stop offset="53%" stop-color="#0b1525"/><stop offset="100%" stop-color="#0b0d23"/></linearGradient>
+      <linearGradient id="horizon" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#62f1e4"/><stop offset="53%" stop-color="#8996ff"/><stop offset="100%" stop-color="#d78cff"/></linearGradient>
+      <radialGradient id="aurora"><stop stop-color="#6b62ff" stop-opacity=".28"/><stop offset="1" stop-color="#6b62ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="aurora2"><stop stop-color="#2affd0" stop-opacity=".17"/><stop offset="1" stop-color="#2affd0" stop-opacity="0"/></radialGradient>
+      <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+      <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0 H0 V34" fill="none" stroke="#2b4260" stroke-width=".6" opacity=".32"/></pattern>
+      <style>
+        .spin { transform-origin: 950px 214px; animation: spin 24s linear infinite; }
+        .spin2 { transform-origin: 950px 214px; animation: spin 35s linear infinite reverse; }
+        .pulse { animation: pulse 2.8s ease-in-out infinite; }
+        .blink { animation: blink 1.3s steps(1,end) infinite; }
+        .float { animation: float 6s ease-in-out infinite; }
+        .dash { stroke-dasharray: 8 18; animation: dash 18s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.35} }
+        @keyframes blink { 50% {opacity:0} }
+        @keyframes float { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
+        @keyframes dash { to {stroke-dashoffset:-600} }
+        @media (prefers-reduced-motion:reduce) { .spin,.spin2,.pulse,.blink,.float,.dash { animation:none; } }
+      </style>
+    </defs>
+<rect x="0" y="0" width="1200" height="440" rx="22" fill="url(#bg)" />
+<circle cx="940" cy="210" r="330" fill="url(#aurora)" stroke="none" stroke-width="1" />
+<circle cx="510" cy="75" r="340" fill="url(#aurora2)" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="1200" height="440" rx="22" fill="url(#grid)" />
+<line x1="0" y1="26" x2="1200" y2="26" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="94" x2="1200" y2="94" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="128" x2="1200" y2="128" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="162" x2="1200" y2="162" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="196" x2="1200" y2="196" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="230" x2="1200" y2="230" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="264" x2="1200" y2="264" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="298" x2="1200" y2="298" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="332" x2="1200" y2="332" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="366" x2="1200" y2="366" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="400" x2="1200" y2="400" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<line x1="0" y1="434" x2="1200" y2="434" stroke="#16334a" stroke-width="0.5" opacity="0.16" />
+<rect x="17" y="17" width="1166" height="406" rx="16" fill="none" stroke="#35536d" stroke-width="1" />
+<line x1="18" y1="18" x2="185" y2="18" stroke="url(#horizon)" stroke-width="3" opacity="1" />
+<line x1="1015" y1="422" x2="1182" y2="422" stroke="url(#horizon)" stroke-width="3" opacity="1" />
+<line x1="32" y1="35" x2="49" y2="35" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="32" y1="35" x2="32" y2="52" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="1168" y1="35" x2="1151" y2="35" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="1168" y1="35" x2="1168" y2="52" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="32" y1="405" x2="49" y2="405" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="32" y1="405" x2="32" y2="388" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="1168" y1="405" x2="1151" y2="405" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<line x1="1168" y1="405" x2="1168" y2="388" stroke="#88c9dd" stroke-width="1.5" opacity="0.75" />
+<rect x="68" y="61" width="53" height="49" rx="11" fill="#10233b" stroke="#4d7086" stroke-width="1" />
+<text x="80" y="93" font-size="24" font-weight="800" fill="#62f1e4" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-1" >ED</text>
+<rect x="136" y="66" width="295" height="38" rx="18" fill="#102139" stroke="#24475a" stroke-width="1" />
+<circle cx="154" cy="85" r="5" fill="#62f1e4" stroke="none" stroke-width="1" class="pulse"/>
+<text x="170" y="90" font-size="11" font-weight="650" fill="#d2e5ef" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1.1" >BUILDING  /  SHIPPING  /  REFINING</text>
+<text x="65" y="210" font-size="101" font-weight="800" fill="#eaf6ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-5" >ERFAN</text>
+<text x="63" y="305" font-size="91" font-weight="770" fill="#eaf6ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-5" >DEHGHANI</text>
+<line x1="68" y1="329" x2="720" y2="329" stroke="url(#horizon)" stroke-width="2.5" opacity="1" />
+<text x="69" y="362" font-size="15" font-weight="700" fill="#62f1e4" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="2" >PRODUCT ENGINEERING     /     CREATIVE DEVELOPMENT</text>
+<text x="69" y="398" font-size="19" font-weight="400" fill="#a8bacb" font-family='Inter,Segoe UI,Arial,sans-serif' >Interfaces with intent. Systems with substance.</text>
+<text x="1084" y="55" font-size="11" font-weight="600" fill="#8da9c2" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1.3" >PROFILE // 01</text>
+<circle cx="953" cy="220" r="164" fill="none" stroke="#47638d" stroke-width="1" stroke-dasharray="3 8" opacity=".6"/>
+<circle cx="953" cy="220" r="134" fill="none" stroke="#5364b8" stroke-width="1.2" opacity=".45"/>
+<g class="spin"><circle cx="953" cy="220" r="156" fill="none" stroke="#65efde" stroke-width="1.5" stroke-dasharray="128 64 12 160" opacity=".78"/><circle cx="1109" cy="220" r="6" fill="#62f1e4" stroke="none" stroke-width="1" filter="url(#glow)"/><circle cx="1109" cy="220" r="3" fill="#62f1e4" stroke="none" stroke-width="1" /></g>
+<g class="spin2"><circle cx="953" cy="220" r="116" fill="none" stroke="#a28dff" stroke-width="2" stroke-dasharray="6 16" opacity=".5"/><circle cx="953" cy="103" r="5" fill="#9e8cff" stroke="none" stroke-width="1" /></g>
+<polygon points="1036.14,268.00 953.00,316.00 869.86,268.00 869.86,172.00 953.00,124.00 1036.14,172.00" fill="#152139" fill-opacity=".85" stroke="#5975ad" stroke-width="1.4"/>
+<polygon points="1018.82,258.00 953.00,296.00 887.18,258.00 887.18,182.00 953.00,144.00 1018.82,182.00" fill="#0b1b2a" stroke="#6df4ea" stroke-width="1" opacity=".8"/>
+<circle cx="953" cy="220" r="51" fill="none" stroke="#8b8cff" stroke-width="2" stroke-dasharray="2 8"/>
+<text x="930" y="230" font-size="38" font-weight="650" fill="#62f1e4" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="-2" >&lt;/&gt;</text>
+<circle cx="953" cy="220" r="68" fill="none" stroke="#47677b" stroke-width="1" stroke-dasharray="55 42"/>
+<rect x="833" y="366" width="218" height="35" rx="10" fill="#0e2032" stroke="#345369" stroke-width="1" />
+<text x="852" y="389" font-size="11" font-weight="600" fill="#bbcedc" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1" >DESIGN   ×   ENGINEERING</text>
+<circle cx="776" cy="128" r="2" fill="#62f1e4" stroke="none" stroke-width="1" class="pulse"/>
+<circle cx="1132" cy="116" r="4" fill="#9e8cff" stroke="none" stroke-width="1" class="pulse"/>
+<circle cx="785" cy="310" r="3" fill="#ffbb7c" stroke="none" stroke-width="1" class="pulse"/>
+<circle cx="1147" cy="341" r="2" fill="#62f1e4" stroke="none" stroke-width="1" class="pulse"/>
+<circle cx="1032" cy="67" r="2" fill="#62f1e4" stroke="none" stroke-width="1" class="pulse"/>
+</svg>

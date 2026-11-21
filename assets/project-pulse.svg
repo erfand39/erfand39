@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="275" viewBox="0 0 590 275" role="img" aria-label="Erfan Dehghani developer portfolio graphic">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07111e"/><stop offset="53%" stop-color="#0b1525"/><stop offset="100%" stop-color="#0b0d23"/></linearGradient>
+      <linearGradient id="horizon" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#62f1e4"/><stop offset="53%" stop-color="#8996ff"/><stop offset="100%" stop-color="#d78cff"/></linearGradient>
+      <radialGradient id="aurora"><stop stop-color="#6b62ff" stop-opacity=".28"/><stop offset="1" stop-color="#6b62ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="aurora2"><stop stop-color="#2affd0" stop-opacity=".17"/><stop offset="1" stop-color="#2affd0" stop-opacity="0"/></radialGradient>
+      <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+      <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0 H0 V34" fill="none" stroke="#2b4260" stroke-width=".6" opacity=".32"/></pattern>
+      <style>
+        .spin { transform-origin: 950px 214px; animation: spin 24s linear infinite; }
+        .spin2 { transform-origin: 950px 214px; animation: spin 35s linear infinite reverse; }
+        .pulse { animation: pulse 2.8s ease-in-out infinite; }
+        .blink { animation: blink 1.3s steps(1,end) infinite; }
+        .float { animation: float 6s ease-in-out infinite; }
+        .dash { stroke-dasharray: 8 18; animation: dash 18s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.35} }
+        @keyframes blink { 50% {opacity:0} }
+        @keyframes float { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
+        @keyframes dash { to {stroke-dashoffset:-600} }
+        @media (prefers-reduced-motion:reduce) { .spin,.spin2,.pulse,.blink,.float,.dash { animation:none; } }
+      </style>
+    </defs>
+<rect x="0" y="0" width="590" height="275" rx="18" fill="url(#bg)" />
+<circle cx="490" cy="165" r="210" fill="url(#aurora)" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="590" height="275" rx="18" fill="url(#grid)" />
+<rect x="12" y="12" width="566" height="251" rx="12" fill="none" stroke="#2f465c" stroke-width="1" />
+<rect x="28" y="36" width="5" height="201" rx="2" fill="#6ce9f1" />
+<text x="46" y="57" font-size="11" font-weight="750" fill="#6ce9f1" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1.4" >MACOS  /  PRODUCTIVITY</text>
+<text x="45" y="106" font-size="37" font-weight="800" fill="#eaf6ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-0.9" >PULSE MAC</text>
+<text x="47" y="141" font-size="15" font-weight="400" fill="#b6c5d4" font-family='Inter,Segoe UI,Arial,sans-serif' >A focused download manager built</text>
+<text x="47" y="163" font-size="15" font-weight="400" fill="#b6c5d4" font-family='Inter,Segoe UI,Arial,sans-serif' >for Apple Silicon workflows.</text>
+<rect x="46" y="207" width="76" height="29" rx="7" fill="#192a3e" stroke="#375064" stroke-width="1" />
+<text x="56" y="226" font-size="10" font-weight="650" fill="#cad9e7" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="0.7" >ELECTRON</text>
+<rect x="130" y="207" width="72" height="29" rx="7" fill="#192a3e" stroke="#375064" stroke-width="1" />
+<text x="140" y="226" font-size="10" font-weight="650" fill="#cad9e7" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="0.7" >REACT</text>
+<rect x="210" y="207" width="92" height="29" rx="7" fill="#192a3e" stroke="#375064" stroke-width="1" />
+<text x="220" y="226" font-size="10" font-weight="650" fill="#cad9e7" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="0.7" >TYPESCRIPT</text>
+<text x="535" y="44" font-size="13" font-weight="700" fill="#6f91a5" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1" >02</text>
+<rect x="398" y="97" width="151" height="106" rx="12" fill="#12243a" stroke="#6ce9f1" stroke-width="1.5" />
+<rect x="409" y="108" width="129" height="16" rx="5" fill="#1c3450" />
+<circle cx="422" cy="116" r="3" fill="#6ce9f1" stroke="none" stroke-width="1" />
+<circle cx="432" cy="116" r="3" fill="#ac9bff" stroke="none" stroke-width="1" />
+<circle cx="442" cy="116" r="3" fill="#ffbe87" stroke="none" stroke-width="1" />
+<rect x="416" y="173.8" width="6" height="16.2" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="429" y="157.0" width="6" height="33.0" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="442" y="167.8" width="6" height="22.2" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="455" y="148.6" width="6" height="41.4" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="468" y="136.0" width="6" height="54.0" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="481" y="160.6" width="6" height="29.4" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="494" y="143.8" width="6" height="46.199999999999996" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="507" y="167.8" width="6" height="22.2" rx="3" fill="#6ce9f1" opacity=".77"/>
+<rect x="520" y="151.6" width="6" height="38.4" rx="3" fill="#6ce9f1" opacity=".77"/>
+<line x1="406" y1="190" x2="542" y2="190" stroke="#4d6985" stroke-width="1" opacity="0.8" />
+<text x="427" y="140" font-size="19" font-weight="700" fill="#eaf6ff" font-family='Consolas,SFMono-Regular,monospace' >16x</text>
+</svg>

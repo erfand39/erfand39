@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="154" viewBox="0 0 1200 154" role="img" aria-label="Erfan Dehghani developer portfolio graphic">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07111e"/><stop offset="53%" stop-color="#0b1525"/><stop offset="100%" stop-color="#0b0d23"/></linearGradient>
+      <linearGradient id="horizon" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#62f1e4"/><stop offset="53%" stop-color="#8996ff"/><stop offset="100%" stop-color="#d78cff"/></linearGradient>
+      <radialGradient id="aurora"><stop stop-color="#6b62ff" stop-opacity=".28"/><stop offset="1" stop-color="#6b62ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="aurora2"><stop stop-color="#2affd0" stop-opacity=".17"/><stop offset="1" stop-color="#2affd0" stop-opacity="0"/></radialGradient>
+      <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+      <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0 H0 V34" fill="none" stroke="#2b4260" stroke-width=".6" opacity=".32"/></pattern>
+      <style>
+        .spin { transform-origin: 950px 214px; animation: spin 24s linear infinite; }
+        .spin2 { transform-origin: 950px 214px; animation: spin 35s linear infinite reverse; }
+        .pulse { animation: pulse 2.8s ease-in-out infinite; }
+        .blink { animation: blink 1.3s steps(1,end) infinite; }
+        .float { animation: float 6s ease-in-out infinite; }
+        .dash { stroke-dasharray: 8 18; animation: dash 18s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.35} }
+        @keyframes blink { 50% {opacity:0} }
+        @keyframes float { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
+        @keyframes dash { to {stroke-dashoffset:-600} }
+        @media (prefers-reduced-motion:reduce) { .spin,.spin2,.pulse,.blink,.float,.dash { animation:none; } }
+      </style>
+    </defs>
+<rect x="0" y="0" width="1200" height="154" rx="18" fill="url(#bg)" />
+<circle cx="800" cy="80" r="300" fill="url(#aurora)" stroke="none" stroke-width="1" />
+<rect x="12" y="12" width="1176" height="130" rx="12" fill="none" stroke="#2c445b" stroke-width="1" />
+<line x1="47" y1="36" x2="47" y2="119" stroke="#62f1e4" stroke-width="3" opacity="1" />
+<text x="75" y="67" font-size="27" font-weight="750" fill="#eaf6ff" font-family='Inter,Segoe UI,Arial,sans-serif' letter-spacing="-0.4" >GOOD SOFTWARE IS IN THE DETAILS.</text>
+<text x="76" y="98" font-size="15" font-weight="400" fill="#93a7b9" font-family='Inter,Segoe UI,Arial,sans-serif' >Thanks for dropping by. Explore a project, open an issue, or say hello on GitHub.</text>
+<rect x="965" y="45" width="190" height="60" rx="12" fill="#132939" stroke="#3b6e7b" stroke-width="1" />
+<circle cx="993" cy="75" r="7" fill="#62f1e4" stroke="none" stroke-width="1" class="pulse"/>
+<text x="1013" y="80" font-size="12" font-weight="700" fill="#62f1e4" font-family='Consolas,SFMono-Regular,monospace' letter-spacing="1.2" >KEEP BUILDING</text>
+</svg>
