@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="440" viewBox="0 0 620 440" role="img" aria-label="Erfan Dehghani creative engineering terminal illustration">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0C1425"/><stop offset=".52" stop-color="#131A34"/><stop offset="1" stop-color="#1D1635"/></linearGradient>
+  <linearGradient id="halo" x1="0" x2="1"><stop stop-color="#62F1E4"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#62F1E4" stop-opacity=".22"/><stop offset="1" stop-color="#62F1E4" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" fill="none" stroke="#A9B9E4" opacity=".065"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<style>
+  .pulse{animation:pulse 3.5s ease-in-out infinite;transform-origin:center}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  .shift{animation:shift 12s linear infinite;transform-origin:484px 245px}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes shift{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.pulse,.blink,.shift{animation:none}}
+</style>
+<rect x="1" y="1" width="618" height="438" rx="24" fill="url(#bg)" stroke="#2E476C" stroke-width="2"/>
+<rect x="1" y="1" width="618" height="438" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="618" height="58" rx="24" fill="#141E32"/>
+<path d="M1 59H619" stroke="#2B3957"/>
+<circle cx="32" cy="30" r="6" fill="#FC6780"/><circle cx="54" cy="30" r="6" fill="#F5C56A"/><circle cx="76" cy="30" r="6" fill="#62D3B7"/>
+<text x="118" y="35" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#BAC9E9">erfan@dev ~ /workspace</text>
+<text x="28" y="99" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" fill="#65DCD4">$ whoami</text>
+<text x="28" y="138" font-family="system-ui, sans-serif" font-size="27" font-weight="750" fill="#F2F7FF">Builder. Thinker. Maker.</text>
+<text x="28" y="168" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#A6B6D6">const craft = [</text>
+<text x="46" y="194" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6EE7DC">"Product Design",</text>
+<text x="46" y="220" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#C5ABFF">"Full-Stack Engineering",</text>
+<text x="46" y="246" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6EE7DC">"Thoughtful UX"</text>
+<text x="28" y="272" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#A6B6D6">];</text>
+<rect x="26" y="301" width="361" height="2" fill="url(#halo)" opacity=".55"/>
+<text x="28" y="332" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#D6E7FA">&gt; Build what matters. Ship with care.</text>
+<rect class="blink" x="377" y="318" width="9" height="17" fill="#6EE7DC"/>
+<text x="28" y="389" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6C84A7">STATUS:</text><circle class="pulse" cx="106" cy="386" r="5" fill="#63E8D6"/><text x="118" y="390" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#89E7DC">ALWAYS BUILDING</text>
+<circle cx="497" cy="237" r="127" fill="url(#orb)"/>
+<circle class="shift" cx="497" cy="237" r="84" fill="none" stroke="#62F1E4" stroke-width="1.6" stroke-dasharray="8 8" opacity=".5"/>
+<circle cx="497" cy="237" r="67" fill="#112336" stroke="#A78BFA" stroke-width="1.3" opacity=".9"/>
+<path d="M497 183L541 209V262L497 288L453 262V209Z" fill="none" stroke="url(#halo)" stroke-width="2"/>
+<path d="M486 224L475 236L486 248M508 224L519 236L508 248M500 218L493 254" fill="none" stroke="#67EDE3" stroke-linecap="round" stroke-width="4"/>
+<circle class="pulse" cx="579" cy="142" r="4" fill="#A78BFA"/><circle class="pulse" cx="410" cy="298" r="3.5" fill="#62F1E4"/>
+<text x="497" y="360" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#8EA6D4">ED / 39</text>
+</svg>
